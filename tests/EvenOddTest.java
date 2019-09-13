@@ -6,8 +6,10 @@ import org.junit.Test;
 
 public class EvenOddTest {
 
+	EvenOdd e;
 	@Before
 	public void setUp() throws Exception {
+		e = new EvenOdd();
 	}
 
 	@After
@@ -22,19 +24,19 @@ public class EvenOddTest {
 	
 	@Test
 	public void testNLessThan1() {
-		EvenOdd e = new EvenOdd();
+//		EvenOdd e = new EvenOdd();
 		assertEquals(false,e.isEven(-999));
 	}
 	
 	@Test
 	public void testNIsEven() {
-		EvenOdd e = new EvenOdd();
+//		EvenOdd e = new EvenOdd();
 		assertEquals(true,e.isEven(30));
 	}
 	
 	@Test
 	public void testNIsOdd() {
-		EvenOdd e = new EvenOdd();
+//		EvenOdd e = new EvenOdd();
 		assertEquals(false,e.isEven(35));
 	}
 
