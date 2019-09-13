@@ -10,6 +10,9 @@ public class EvenOdd {
 		if(n < 1) {
 			return false;
 		}
+		if(n % 2 == 1) {
+			return false;
+		}
 		return true;
 	}
 }
