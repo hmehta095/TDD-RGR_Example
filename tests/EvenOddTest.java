@@ -14,11 +14,11 @@ public class EvenOddTest {
 	public void tearDown() throws Exception {
 	}
 
-	@Test
-	public void testEvenOddFunction() {
-		EvenOdd e = new EvenOdd();
-		assertEquals(true, e.isEven(20));
-	}
+//	@Test
+//	public void testEvenOddFunction() {
+//		EvenOdd e = new EvenOdd();
+//		assertEquals(true, e.isEven(20));
+//	}
 	
 	@Test
 	public void testNLessThan1() {
