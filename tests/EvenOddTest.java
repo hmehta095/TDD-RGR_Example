@@ -23,7 +23,7 @@ public class EvenOddTest {
 	@Test
 	public void testNLessThan1() {
 		EvenOdd e = new EvenOdd();
-		assertEquals(false,e.isEven(0.999));
+		assertEquals(false,e.isEven(-999));
 	}
 
 }

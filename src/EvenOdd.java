@@ -6,6 +6,10 @@ public class EvenOdd {
 	}
 	
 	public boolean isEven(int n) {
+		
+		if(n < 1) {
+			return false;
+		}
 		return true;
 	}
 }
