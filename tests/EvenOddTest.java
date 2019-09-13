@@ -15,8 +15,9 @@ public class EvenOddTest {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testEvenOddFunction() {
+		EvenOdd e = new EvenOdd();
+		assertEquals(true, e.isEven(20));
 	}
 
 }
