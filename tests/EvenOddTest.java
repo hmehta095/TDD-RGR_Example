@@ -19,5 +19,11 @@ public class EvenOddTest {
 		EvenOdd e = new EvenOdd();
 		assertEquals(true, e.isEven(20));
 	}
+	
+	@Test
+	public void testNLessThan1() {
+		EvenOdd e = new EvenOdd();
+		assertEquals(false,e.isEven(0.999));
+	}
 
 }
