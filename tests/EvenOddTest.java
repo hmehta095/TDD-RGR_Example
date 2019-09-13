@@ -25,5 +25,11 @@ public class EvenOddTest {
 		EvenOdd e = new EvenOdd();
 		assertEquals(false,e.isEven(-999));
 	}
+	
+	@Test
+	public void testNIsEven() {
+		EvenOdd e = new EvenOdd();
+		assertEquals(true,e.isEven(30));
+	}
 
 }
